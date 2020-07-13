@@ -1,0 +1,19 @@
+.container {
+	margin: 0 auto;
+}
+
+header {
+	background: url("../images/Background.png");
+}
+
+nav {
+	float: right;
+	width: 70%;
+}
+
+.logo {
+	float: left;	
+	width: 30%;
+}
+
+/* Пропал фон из-за свойства float */
