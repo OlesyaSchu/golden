@@ -86,3 +86,48 @@ header .container {
 	padding-left: 7px;
 	padding-bottom: 2px;
 }
+
+.home {
+	color: #FFF;
+	flex: 5;
+}
+
+.home__articleAndButton {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	width: 100%;	
+	padding-top: 38px;
+}
+
+.home__articleAndButton p {
+	font-family: RobotoSlab-Regular;
+	font-size: 40px;
+	letter-spacing: -1px;
+	word-spacing: 1px;
+	margin: 0 auto;
+	padding-top: 2px;
+}
+
+.home__articleAndButton h1 {
+	font-family: Montserrat-Bold;
+	font-size: 75px;
+	text-transform: uppercase;
+	word-spacing: 1px;
+	letter-spacing: -2px;
+	margin: 22px auto 40px auto;
+}
+
+.home__articleAndButton button {
+	font-family: Montserrat-Bold;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: white;
+	padding: 22px 49px 22px;
+	margin-bottom: 50px;
+	background-color: #ffcc33;
+	border: none;
+	border-radius: 3px;
+}
