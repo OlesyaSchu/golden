@@ -505,3 +505,97 @@ section:nth-child(5) {
 .logos li:nth-child(4) {
 	padding: 1px 0 0 4px;
 }
+
+section:nth-child(7) {
+	height: 676px;
+	background: url("../images/contact/map_image.png") no-repeat;
+	background-position: top;
+}
+
+.contact {
+	padding-top: 100px;
+}
+
+.contact_title {
+	color: #FFF;
+	text-align: center;
+}
+
+.contact_title h2 {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+	font: 40px "Montserrat-Bold";
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	word-spacing: -2px;
+}
+
+.contact_title p {
+	margin: 0;
+	padding: 0;
+	font: 16px "RobotoSlab-Regular";
+	color: #666666;
+}
+
+.contact_form {
+	margin: 0;
+	padding: 0;
+	margin-top: 74px;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* нужно изменить цвета у текста внутри формы */
+
+.contact_form_one textarea, .contact_form_two textarea {
+	width: 455px;
+	border: 0px;
+	border-radius: 3px;
+	font-family: Montserrat-Bold;
+	font-size: 14px;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	word-spacing: 1.5px;
+	letter-spacing: -0.5px;
+}
+
+.contact_form_one {
+	margin: 0;
+	padding: 0;
+	height: 213px;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
+
+.contact_form_one textarea {
+	margin: 0;
+	padding: 0;
+	padding-top: 17px;
+	padding-left: 20px;
+	height: 52px;
+}
+
+.contact_form_two textarea {
+	margin: 0;
+	padding: 0;
+	padding-top: 17px;
+	padding-left: 20px;
+	height: 211px;
+}
+
+.contact button {
+	margin: 28px auto;
+	padding: 20px 46px 24px 45px;
+	margin-bottom: 50px;
+	font-family: Montserrat-Bold;
+	font-size: 18px;
+	text-transform: uppercase;
+	word-spacing: -2px;
+	color: white;
+	background-color: #ffcc33;
+	border: none;
+	border-radius: 3px;
+	display: block;
+}
