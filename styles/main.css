@@ -599,3 +599,34 @@ section:nth-child(7) {
 	border-radius: 3px;
 	display: block;
 }
+
+footer {
+	height: 90px;
+}
+
+footer .container {
+	padding-top: 8px;
+	display: flex;
+	align-items: center;
+	align-content: stretch;
+}
+
+footer ol {
+	margin-left: 76px;
+	padding-top: 1px;
+	list-style: none;
+	display: flex;
+}
+
+footer li {
+	margin: 0 4.5px;
+}
+
+footer p {
+	font-family: Montserrat-Regular;
+	font-size: 14px;
+	padding-bottom: 2px;
+	/* word-spacing: -0.25px; */
+	letter-spacing: -0.25px;
+	padding-bottom: 1px;
+}
